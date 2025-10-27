@@ -14,32 +14,30 @@
 
 ---
 
-### About Me
+### Summary
 
-I'm a quantitative researcher and a Ph.D. candidate at Washington University in St. Louis, with an expected graduation in May 2026\. My work focuses on building computational models to understand the psychological mechanisms of decision-making, particularly how factors like age and income influence choices about future and uncertain outcomes.
-
-My research program tests two main hypotheses: a **buffering hypothesis**, which posits that age-related psychological factors protect older adults from the negative effects of financial scarcity, and a **complexity hypothesis**, which predicts that age differences are amplified in more complex decisions.
-
-I'm passionate about applying rigorous statistical methods to real-world problems and am proficient in both the R and Python data science ecosystems for end-to-end reproducible research. I also work as a part-time Software Engineer at Swipesum
+I am a quantitative researcher and a Ph.D. candidate at Washington University in St. Louis (exp. May 2026), specializing in applying advanced computational and statistical models to understand complex human behavior. My expertise lies in **Bayesian hierarchical modeling**, **experimental design**, and building end-to-end **reproducible data analysis pipelines** in both the R and Python ecosystems.
 
 ---
 
-### Technical Skills
+### Core Competencies
 
-* **Programming & Tools**: **R** (Tidyverse, brms, cmdstanr, lme4, ggplot2), **Python** (Pandas, NumPy, PyMC, Scikit-learn, Statsmodels, Matplotlib), **Stan**, **Stata**, **Git/GitHub**, **GitLab CI/CD** 
-* **Statistical Methods**: **Bayesian Inference**, **Hierarchical/Mixed-Effects Modeling**, **Causal Inference** (2SLS, DiD), **Longitudinal Data Analysis**, **Generalized Linear Models** (Beta, Binomial)
-* **Data Science**: Predictive Modeling, Experimental Design, Data Wrangling, Data Visualization, Multivariate Analysis
+* **Languages & Ecosystems**: **R** (`tidyverse`, `brms`, `cmdstanr`, `lme4`), **Python** (`pandas`, `numpy`, `pymc`, `statsmodels`, `scikit-learn`)
+* **Modeling & Inference**: **Bayesian Hierarchical Modeling**, **Generalized Linear Models** (Binomial, Beta, Negative Binomial), **Nonlinear Modeling** (e.g., ZBEn Demand Models), **Causal Inference**, Longitudinal Data Analysis
+* **Tools & Platforms**: **Stan**, Git/GitHub, Stata
 
 ---
 
-### Portfolio: Bilingual Code for Published Research
+### Portfolio: Reproducible Analyses of Peer-Reviewed Research
 
-My portfolio demonstrates technical versatility and a commitment to reproducible science by translating the analyses from my peer-reviewed publications into both **R** and **Python**. Each project includes the original R/Stan code alongside a complete Python replication.
+This portfolio showcases my commitment to reproducible science and technical versatility by providing end-to-end analyses for my peer-reviewed publications in both **R** and **Python**. Each project includes a complete replication of the original analysis, demonstrating proficiency across different modeling frameworks and libraries.
 
-| Project Title | Description & Methods | Tech Stack | Repository |
-| :--- | :--- | :--- | :--- |
-| **Age, Income, and the Discounting of Delayed Monetary Losses (2025)** | Tests the "buffering hypothesis" using Bayesian multilevel beta regressions to model how age and income interact to affect financial decision-making under risk. | `R` `brms` `Python` `pymc` `statsmodels` | [View Project](https://github.com/your-username/Age-Income-Loss-Discounting-2025) |
-| **Discounting of Probabilistic Food Reinforcement by Pigeons (2025)** | Fits custom Bayesian nonlinear beta regression models to examine how pigeons discount probabilistic rewards, providing a direct translation of a `brms` workflow into `pymc`. | `R` `brms` `Python` `pymc` | [View Project](https://github.com/your-username/Pigeon-Probability-Discounting-2025) |
-| **Delayed Monetary Losses: Do Different Procedures Assess the Same Construct? (2024)** | Compares two methods for measuring the discounting of delayed losses using frequentist methods, including beta regression (`betareg`), `glht` for hypothesis testing, and nonlinear modeling. | `R` `betareg` `Python` `statsmodels` `lmfit` | [View Project](https://github.com/your-username/Discounting-Losses-Comparison-2024) |
-| **Individual Differences in Degree of Discounting (2023)** | Assesses the reliability and validity of two common discounting procedures using a variety of statistical techniques, including GLMMs (`glmmTMB`) and nonlinear regression. | `R` `glmmTMB` `Python` `statsmodels` `lmfit` | [View Project](https://github.com/your-username/Discounting-Procedure-Comparison-2023) |
-| **Failure to find altruistic food sharing in rats (2021)** | Implements hierarchical binomial and negative binomial regression models in Stan to test claims of altruism in rats across multiple experimental conditions. | `R` `cmdstanr` `Python` `cmdstanpy` | [View Project](https://github.com/your-username/Rat-Sharing-Analysis-2021) |
+| Project Title & Publication | Description & Key Methods | Tech Stack | Repository |
+|:---|:---|:---|:---|
+| **Age, income, and the discounting of delayed monetary losses** <br/> *Journals of Gerontology: Series B (2025)* | Models how demographic factors interact to influence financial risk tolerance using Bayesian hierarchical beta regressions. | `R (brms)` `Python (pymc)` | [View Project](./Wan_et_al_2025_JGerontol) |
+| **Delayed monetary losses: Do different procedures assess the same construct?** <br/> *Behavioural Processes (2024)* | Compares two behavioral measures using frequentist methods, including beta regression, nonlinear modeling, and hypothesis testing with `glht`. | `R (betareg)` `Python (statsmodels)` | [View Project](./Wan_et_al_2024_BehavProc_Losses) |
+| **Age-related differences in delay discounting: Income matters** <br/> *Psychology and Aging (2024)* | Implements a series of Bayesian multilevel models to test a focused "buffering hypothesis" regarding age and income. | `R (brms)` `Python (pymc)` | [View Project](./Wan_et_al_2024_PsychAging) |
+| **Social familiarity and reinforcement value** <br/> *Frontiers in Psychology (2023)* | Fits a specialized nonlinear behavioral-economic demand model (ZBEn) using both frequentist (`lmfit`) and Bayesian (`pymc`) hierarchical approaches. | `R (minpack.lm)` `Python (lmfit, pymc)` | [View Project](./Schulingkamp_Wan_Hackenberg_2023) |
+| **Individual differences in degree of discounting** <br/> *Behavioural Processes (2023)* | A psychometric validation study using GLMMs (`glmmTMB`) and correlation analyses to assess the convergent validity of two measurement tools. | `R (glmmTMB)` `Python (statsmodels)` | [View Project](./Wan_et_al_2023_BehavProc) |
+| **A behavioral-economic analysis of demand and preference** <br/> *Learning and Motivation (2022)* | Quantifies own-price and cross-price elasticity by fitting ZBEn and exponential demand models to assess reinforcer substitutability. | `R (minpack.lm)` `Python (lmfit)` | [View Project](./Kirkman_Wan_Hackenberg_2022) |
+| **Failure to find altruistic food sharing in rats** <br/> *Frontiers in Psychology (2021)* | Implements custom hierarchical binomial and negative binomial regression models in Stan to test claims of altruism across multiple experimental conditions. | `R (cmdstanr)` `Python (cmdstanpy)` | [View Project](./Wan_et_al_2021_Frontiers) |
