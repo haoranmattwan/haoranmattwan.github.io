@@ -22,9 +22,9 @@ I am a quantitative researcher and a Ph.D. candidate at Washington University in
 
 ### Core Competencies
 
-* **Languages & Ecosystems**: **R** (`tidyverse`, `brms`, `cmdstanr`, `lme4`), **Python** (`pandas`, `numpy`, `pymc`, `statsmodels`, `scikit-learn`)
-* **Modeling & Inference**: **Bayesian Hierarchical Modeling**, **Generalized Linear Models** (Binomial, Beta, Negative Binomial), **Nonlinear Modeling**, **Causal Inference**, **Longitudinal Data Analysis**, **Multivariate Analysis**
-* **Tools & Platforms**: **Stan**, Git/GitHub/GitLab, Stata
+* **Languages & Ecosystems**: R (`tidyverse`, `brms`, `cmdstanr`, `lme4`), Python (`pandas`, `numpy`, `pymc`, `statsmodels`, `scikit-learn`)
+* **Modeling & Inference**: Bayesian Hierarchical Modeling, Generalized Linear Models, Nonlinear Modeling, Causal Inference, Longitudinal Data Analysis, Multivariate Analysis
+* **Tools & Platforms**: Stan, Git/GitHub/GitLab, Stata
 
 ---
 
