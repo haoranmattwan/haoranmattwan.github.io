@@ -37,7 +37,7 @@ format:
 
 ## <span style="color:#A70E16;">About Me</span>
 
-Iam a behavioral scientist and quantitative researcher specializing in computational methods and predictive modeling. I am completing my Ph.D. in Psychological & Brain Sciences at Washington University in St. Louis (exp. May 2026). My work lives at the intersection of behavioral economics and advanced statistical modeling. 
+I am a behavioral scientist and quantitative researcher specializing in computational methods and predictive modeling. I am completing my Ph.D. in Psychological & Brain Sciences at Washington University in St. Louis (exp. May 2026). My work lives at the intersection of behavioral economics and advanced statistical modeling. 
 
 My expertise spans the full research and data science lifecycle from designing controlled experiments (both online and in-lab) to building and validating advanced statistical models. I have a proven track record, demonstrated in multiple peer-reviewed publications, of applying techniques such as Bayesian inference, causal analysis, and mixed-effects modeling to uncover the drivers of complex human behavior. My primary toolkit includes R, Python, and SQL.
 
