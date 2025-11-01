@@ -44,6 +44,10 @@ My research program is focused on developing and applying advanced computational
 **Wan, H.** (2023). *Discounting of delayed and probabilistic outcomes across the adult lifespan*. (Master’s Thesis, Washington University in St. Louis).
 </p>
 
+<p>
+**Wan, H.**, Myerson, J., Green, L., Strube, M. J, & Hale, S. (in preparation). *Age, income, and the discounting of delayed and probabilistic rewards*.
+</p>
+
 </div>
 :::
 :::
@@ -52,11 +56,11 @@ My research program is focused on developing and applying advanced computational
 
 ::: {.grid}
 ::: {.g-col-md-6}
-***Challenge:*** Real-world choices are complex, often involving outcomes that are both delayed and probabilistic. Three distinct theoretical frameworks offer mutually exclusive predictions for how delay and probability interact... Resolving which model is correct is a central, unresolved question in decision science.
+***Challenge:*** Real-world choices are complex, often involving outcomes that are both delayed and probabilistic. Three distinct theoretical frameworks offer mutually exclusive predictions for how delay and probability interact. Resolving which model is correct is a central, unresolved question in decision science.
 
-***Approach:*** I developed a multi-pronged analytical approach to resolve this conflict. First, I created novel, model-agnostic methods—"model-based slicing" and "Conditional Area under the Curve"—to robustly test the competing qualitative predictions. Second, I conducted a formal mathematical analysis...demonstrating that it converges to a simpler, parsimonious multiplicative form. Third, I analyzed the "delay-probability asymmetry,"...and showed it is not caused by probability becoming more salient, but by delay discounting becoming *shallower*...when uncertainty is introduced.
+***Approach:*** I developed a multi-pronged analytical approach to resolve this conflict. First, I created novel, model-agnostic methods—"model-based slicing" and "Conditional Area under the Curve"—to robustly test the competing qualitative predictions. Second, I conducted a formal mathematical analysis, demonstrating that it converges to a simpler, parsimonious multiplicative form. Third, I analyzed the "delay-probability asymmetry," and showed it is not caused by probability becoming more salient, but by delay discounting becoming *shallower* when uncertainty is introduced.
 
-***Contribution:*** This work clarifies the foundational relationship between delay and probability. It provides new, robust methods (Conditional AuC) for analyzing multi-attribute choice, simplifies the theoretical landscape...and provides an empirical explanation for the delay-probability asymmetry.
+***Contribution:*** This work clarifies the foundational relationship between delay and probability. It provides new, robust methods (Conditional AuC) for analyzing multi-attribute choice, simplifies the theoretical landscape, and provides an empirical explanation for the delay-probability asymmetry.
 :::
 
 ::: {.g-col-md-6}
@@ -84,7 +88,7 @@ Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (under review). *Delay-pr
 
 ::: {.grid}
 ::: {.g-col-md-6}
-***Challenge:*** Key measurement tools in behavioral economics faced two major barriers to impact: their scientific consistency...was unverified, and their length made them inefficient for scalable online research.
+***Challenge:*** Key measurement tools in behavioral economics faced two major barriers to impact: their scientific consistency was unverified, and their length made them inefficient for scalable online research.
 
 ***Approach:*** I led a multi-phase research program analyzing data from over 800 participants. First, I conducted comparative psychometric analyses using Generalized Linear Mixed Models (GLMMs) to validate consistency across different instruments. With this validation established, I then developed and refined shorter versions of the questionnaires, balancing brevity with predictive accuracy.
 
