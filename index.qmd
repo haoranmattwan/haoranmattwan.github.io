@@ -1,0 +1,38 @@
+---
+title: "Haoran (Matt) Wan"
+pagetitle: "Haoran (Matt) Wan"
+subtitle: "Quantitative Scientist | Machine Learning & Statistical Inference"
+comments: false
+
+image: "profile.jpg"
+
+extensions:
+  iconify:
+    set: "octicon"
+    size: "Huge"
+    inline: true
+    mode: "svg"
+
+about:
+  template: jolla
+  image-width: 36em
+  links:
+    - text: "{{< iconify fa6-brands:github-square >}}"
+      aria-label: GitHub
+      href: https://github.com/haoranmattwan
+    - text: "{{< iconify fa6-brands:linkedin >}}"
+      aria-label: LinkedIn
+      href: https://www.linkedin.com/in/matt-haoran-wan
+    - text: "{{< iconify academicons:google-scholar-square >}}"
+      aria-label: Google Scholar
+      href: https://scholar.google.com/citations?user=wOmVqukAAAAJ&hl=en
+    - text: "{{< iconify fa6-solid:square-envelope >}}"
+      aria-label: Email
+      href: mailto:haoran.w@wustl.edu
+
+page-layout: article
+
+execute: 
+  freeze: false
+  echo: false
+---

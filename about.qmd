@@ -1,0 +1,45 @@
+---
+title: "Haoran (Matt) Wan"
+subtitle: "Quantitative Scientist | Machine Learning & Statistical Inference"
+image: "profile.jpg"
+image-alt: "A portrait of Haoran (Matt) Wan."
+comments: false
+
+extensions:
+  iconify:
+    set: "octicon"
+    size: "Large"
+    inline: true
+    mode: "svg"
+
+about:
+  template: trestles
+  image-width: 17em
+  image-shape: rectangle
+  links:
+    - text: "{{< iconify fa6-brands:github-square >}}"
+      aria-label: GitHub
+      href: https://github.com/haoranmattwan
+    - text: "{{< iconify fa6-brands:linkedin >}}"
+      aria-label: LinkedIn
+      href: https://www.linkedin.com/in/matt-haoran-wan
+    - text: "{{< iconify academicons:google-scholar-square >}}"
+      aria-label: Google Scholar
+      href: https://scholar.google.com/citations?user=wOmVqukAAAAJ&hl=en
+    - text: "{{< iconify fa6-solid:square-envelope >}}"
+      aria-label: Email
+      href: mailto:haoran.w@wustl.edu
+
+# This ensures the sidebar and main content fill the page
+format: 
+  html: 
+    page-layout: full
+---
+
+## About Me
+
+I am a quantitative scientist specializing in predictive modeling and computational methods, currently completing my PhD at Washington University in St. Louis. My work lives at the intersection of behavioral science and machine learning, and I am passionate about using data to understand and predict human behavior.
+
+My experience spans the full data science lifecycle, from designing experiments and wrangling large datasets to developing and deploying advanced statistical models. I have a proven track record of using techniques like Bayesian inference, causal analysis, and mixed-effects modeling to uncover key drivers and accurately predict outcomes from complex data. My primary toolkit includes Python, R, and SQL.
+
+My goal is to tackle complex, high-stakes problems at the intersection of data and human behavior. I am passionate about working in collaborative settings to transform deep analytical insights into strategies and research that create tangible impact and drive innovation.

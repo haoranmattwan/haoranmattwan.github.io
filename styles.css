@@ -1,0 +1,72 @@
+/* css styles */
+
+.about-trestles .title {
+  font-size: 2.0em; 
+}
+
+.quarto-about-trestles .about-title {
+  font-size: 1.75em; 
+}
+
+#title-block-header.quarto-title-block.default .quarto-title .subtitle {
+  font-size: 1em;
+  color: gray
+}
+
+#about-links .list-inline-item a {
+  font-size: 1.75em; 
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  font-size: 14pt;
+  background-color: #ebebeb;
+}
+
+/* Title in navbar */
+.navbar-brand {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.15em; 
+  font-weight: 400;
+}
+
+/* Default state for nav links (Home, About) */
+.navbar-nav .nav-link {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.15em; 
+  font-weight: 400; 
+  color: #6c757d; 
+}
+
+/* Selected state for nav links */
+.navbar-nav .nav-link.active {
+  font-weight: 400;
+  color: #000000 !important; 
+}
+
+/* Navbar background color */
+.navbar {
+  background-color: #ebebeb;
+  border-bottom: none; 
+  box-shadow: none;    
+}
+
+/* Navbar logo size */
+.navbar-brand-logo {
+  width: auto;
+  margin-right: 10px;
+}
+
+.quarto-content h3 {
+  color: #A70E16;
+}
+
+.quarto-content h3 {
+  color: #A70E16;
+}
+
+.hanging-indent p {
+  padding-left: 2em;
+  text-indent: -2em;
+  margin-bottom: 0.25em; 
+}
