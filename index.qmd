@@ -37,6 +37,6 @@ execute:
   echo: false
 ---
 
-I am a quantitative scientist and 5th-year Ph.D. candidate at Washington University in St. Louis. 
+I am a behavioral scientist and 5th-year Ph.D. candidate at Washington University in St. Louis. 
 
 I build predictive models to understand complex human behavior and translate advanced statistical methods into actionable, data-driven decisions.

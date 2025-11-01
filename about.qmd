@@ -30,7 +30,6 @@ about:
       aria-label: Email
       href: mailto:haoran.w@wustl.edu
 
-# This ensures the sidebar and main content fill the page
 format: 
   html: 
     page-layout: full
@@ -38,8 +37,8 @@ format:
 
 ## <span style="color:#A70E16;">About Me</span>
 
-I am a quantitative scientist specializing in predictive modeling and computational methods, currently completing my PhD at Washington University in St. Louis. My work lives at the intersection of behavioral science and machine learning, and I am passionate about using data to understand and predict human behavior.
+Iam a behavioral scientist and quantitative researcher specializing in computational methods and predictive modeling. I am completing my Ph.D. in Psychological & Brain Sciences at Washington University in St. Louis (exp. May 2026). My work lives at the intersection of behavioral economics and advanced statistical modeling. 
 
-My experience spans the full data science lifecycle, from designing experiments and wrangling large datasets to developing and deploying advanced statistical models. I have a proven track record of using techniques like Bayesian inference, causal analysis, and mixed-effects modeling to uncover key drivers and accurately predict outcomes from complex data. My primary toolkit includes Python, R, and SQL.
+My expertise spans the full research and data science lifecycle from designing controlled experiments (both online and in-lab) to building and validating advanced statistical models. I have a proven track record, demonstrated in multiple peer-reviewed publications, of applying techniques such as Bayesian inference, causal analysis, and mixed-effects modeling to uncover the drivers of complex human behavior. My primary toolkit includes R, Python, and SQL.
 
-My goal is to tackle complex, high-stakes problems at the intersection of data and human behavior. I am passionate about working in collaborative settings to transform deep analytical insights into strategies and research that create tangible impact and drive innovation.
+I am driven to solve complex, high-stakes problems at the intersection of data and human behavior. I am passionate about working in collaborative settings to transform deep analytical insights into strategies and research that create tangible impact and drive innovation
