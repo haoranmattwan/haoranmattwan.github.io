@@ -1,7 +1,7 @@
 ---
 title: "Haoran (Matt) Wan"
 pagetitle: "Haoran (Matt) Wan"
-subtitle: "Quantitative Scientist | Machine Learning & Statistical Inference"
+subtitle: "Behavioral Scientist | Machine Learning & Statistical Inference"
 comments: false
 
 image: "profile.jpg"

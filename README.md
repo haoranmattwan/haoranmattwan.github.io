@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio and website.
 
-## [**Visit the live site at haoranwan.com**](https://haoranwan.com)
+## **Visit the live site at [haoranwan.com**](https://haoranwan.com)
 
 ---
 
