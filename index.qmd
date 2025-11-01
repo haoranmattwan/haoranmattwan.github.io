@@ -9,24 +9,24 @@ image: "profile.jpg"
 extensions:
   iconify:
     set: "octicon"
-    size: "Huge"
+    size: "1.9em"  
     inline: true
     mode: "svg"
 
 about:
   template: jolla
-  image-width: 36em
+  image-width: 31em
   links:
-    - text: "{{< iconify fa6-brands:github-square >}}"
+    - text: "{{< iconify fa6-brands:github >}}"
       aria-label: GitHub
       href: https://github.com/haoranmattwan
     - text: "{{< iconify fa6-brands:linkedin >}}"
       aria-label: LinkedIn
       href: https://www.linkedin.com/in/matt-haoran-wan
-    - text: "{{< iconify academicons:google-scholar-square >}}"
+    - text: "{{< iconify academicons:google-scholar >}}"
       aria-label: Google Scholar
       href: https://scholar.google.com/citations?user=wOmVqukAAAAJ&hl=en
-    - text: "{{< iconify fa6-solid:square-envelope >}}"
+    - text: "{{< iconify fa6-solid:envelope >}}"
       aria-label: Email
       href: mailto:haoran.w@wustl.edu
 
@@ -36,3 +36,7 @@ execute:
   freeze: false
   echo: false
 ---
+
+I am a quantitative scientist and 5th-year Ph.D. candidate at Washington University in St. Louis. 
+
+I build predictive models to understand complex human behavior and translate advanced statistical methods into actionable, data-driven decisions.

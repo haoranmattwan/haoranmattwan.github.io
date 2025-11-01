@@ -3,23 +3,25 @@ title: "Research Portfolio"
 comments: false
 format: 
   html:
-    toc: true
-    toc-float: true
-    toc-location: right
+    page-layout: full
 ---
 
 My research program is focused on developing and applying advanced computational and statistical models to understand and predict complex human behavior. Below are the core themes of my work, along with the corresponding publications and reproducible analysis repositories.
 
----
+::: {.panel-tabset}
 
-### 1. A Predictive Model of Economic Decision-Making & Aging
+### <span style="color:#A70E16;">**1. Decision-Making & Aging**</span>
 
-**Challenge:** Existing research on how economic choice changes with age is conflicting, largely because it fails to account for choice complexity or socioeconomic factors. My dissertation proposes and tests a novel framework to resolve these inconsistencies and build a more accurate predictive model.
+::: {.grid}
+::: {.g-col-md-6}
+***Challenge:*** Existing research on how economic choice changes with age is conflicting, largely because it fails to account for choice complexity or socioeconomic factors. My dissertation proposes and tests a novel framework to resolve these inconsistencies and build a more accurate predictive model.
 
-**Approach:** I designed a two-part, large-scale online study to test two core theories: the "Buffering Hypothesis" and the "Complexity Hypothesis." Analysis of initial datasets using hierarchical Bayesian and mixed-effects models confirmed a key finding: the effect of age on financial patience is conditional on income, resolving a key scientific debate.
+***Approach:*** I designed a two-part, large-scale online study to test two core theories: the "Buffering Hypothesis" and the "Complexity Hypothesis." Analysis of initial datasets using hierarchical Bayesian and mixed-effects models confirmed a key finding: the effect of age on financial patience is conditional on income, resolving a key scientific debate.
 
-**Contribution:** This research will deliver a more nuanced, empirically-validated predictive model of aging and decision-making. The framework provides a data-driven method for segmenting populations to better predict financial and health-related behaviors.
+***Contribution:*** This research will deliver a more nuanced, empirically-validated predictive model of aging and decision-making. The framework provides a data-driven method for segmenting populations to better predict financial and health-related behaviors.
+:::
 
+::: {.g-col-md-6}
 **Relevant Publications & Repositories:**
 
 <div class="hanging-indent">
@@ -30,37 +32,41 @@ My research program is focused on developing and applying advanced computational
 
 <p>
 **Wan, H.**, Myerson, J., Green, L., Strube, M. J, & Hale, S. (2025). Age, income, and the discounting of delayed monetary losses. *Journals of Gerontology: Series B*.
-<br>&nbsp;&nbsp;&nbsp; [View Paper](https://doi.org/10.1093/geronb/gbaf162) | [View GitHub Repository](https://github.com/haoranmattwan/Age-Income-Loss-Discounting-2025) | [View OSF Repository](https://osf.io/4ym2r)
+<br>[View Paper](https://doi.org/10.1093/geronb/gbaf162) | [View GitHub Repository](https://github.com/haoranmattwan/Age-Income-Loss-Discounting-2025) | [View OSF Repository](https://osf.io/4ym2r)
 </p>
 
 <p>
 **Wan, H.**, Myerson, J., Green, L., Strube, M. J, & Hale, S. (2024). Age-related differences in delay discounting: Income matters. *Psychology and Aging, 39*(6), 632.
-<br>&nbsp;&nbsp;&nbsp; [View Paper](https://doi.org/10.1037/pag0000818) | [View GitHub Repository](https://github.com/haoranmattwan/age-income-discounting-2024) | [View OSF Repository](https://osf.io/um68t)
+<br>[View Paper](https://doi.org/10.1037/pag0000818) | [View GitHub Repository](https://github.com/haoranmattwan/age-income-discounting-2024) | [View OSF Repository](https://osf.io/um68t)
 </p>
 
 <p>
 **Wan, H.** (2023). *Discounting of delayed and probabilistic outcomes across the adult lifespan*. (Master’s Thesis, Washington University in St. Louis).
 </p>
 
-<p>
-Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (in preparation). *Delay-probability asymmetry in discounting: An anomaly in multi-attribute choice.*
-</p>
-
 </div>
+:::
+:::
 
----
+### <span style="color:#A70E16;">**2. Multi-Attribute Choice**</span>
 
-### 2. Resolving Theoretical Conflicts in Multi-Attribute Choice
+::: {.grid}
+::: {.g-col-md-6}
+***Challenge:*** Real-world choices are complex, often involving outcomes that are both delayed and probabilistic. Three distinct theoretical frameworks offer mutually exclusive predictions for how delay and probability interact... Resolving which model is correct is a central, unresolved question in decision science.
 
-**Challenge:** Real-world choices are complex, often involving outcomes that are both delayed and probabilistic. Three distinct theoretical frameworks offer mutually exclusive predictions for how delay and probability interact: (1) they are independent (multiplicative models), (2) they create a "steeper" interaction (additive models), or (3) they create a "shallower" interaction (single-process models). Resolving which model is correct is a central, unresolved question in decision science.
+***Approach:*** I developed a multi-pronged analytical approach to resolve this conflict. First, I created novel, model-agnostic methods—"model-based slicing" and "Conditional Area under the Curve"—to robustly test the competing qualitative predictions. Second, I conducted a formal mathematical analysis...demonstrating that it converges to a simpler, parsimonious multiplicative form. Third, I analyzed the "delay-probability asymmetry,"...and showed it is not caused by probability becoming more salient, but by delay discounting becoming *shallower*...when uncertainty is introduced.
 
-**Approach:** I developed a multi-pronged analytical approach to resolve this conflict. First, I created novel, model-agnostic methods—"model-based slicing" and "Conditional Area under the Curve"—to robustly test the competing qualitative predictions. Second, I conducted a formal mathematical analysis of Killeen's (2023a) complex additive model, demonstrating that it converges to a simpler, parsimonious multiplicative form. Third, I analyzed the "delay-probability asymmetry," a related puzzle, and showed it is not caused by probability becoming more salient, but by delay discounting becoming *shallower* (less steep) when uncertainty is introduced.
+***Contribution:*** This work clarifies the foundational relationship between delay and probability. It provides new, robust methods (Conditional AuC) for analyzing multi-attribute choice, simplifies the theoretical landscape...and provides an empirical explanation for the delay-probability asymmetry.
+:::
 
-**Contribution:** This work clarifies the foundational relationship between delay and probability. It provides new, robust methods (Conditional AuC) for analyzing multi-attribute choice, simplifies the theoretical landscape by showing a complex additive model is descriptively equivalent to a simpler one, and provides an empirical explanation for the delay-probability asymmetry.
-
+::: {.g-col-md-6}
 **Relevant Manuscripts:**
 
 <div class="hanging-indent">
+
+<p>
+Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (under review). *Delay-probability asymmetry in discounting: An anomaly in multi-attribute choice*.
+</p>
 
 <p>
 **Wan, H.**, Myerson, J., & Green, L. (in preparation). *A Multiplicative Relation: On the Independence of Delay and Probability Discounting*.
@@ -70,22 +76,22 @@ Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (in preparation). *Delay-
 **Wan, H.**, Myerson, J., & Green, L. (in preparation). *A parsimonious simplification of Killeen’s general theory of discounting*.
 </p>
 
-<p>
-Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (in preparation). *Delay-probability asymmetry in discounting: An anomaly in multi-attribute choice*.
-</p>
-
 </div>
+:::
+:::
 
----
+### <span style="color:#A70E16;">**3. Measurement Optimization**</span>
 
-### 3. Optimizing Measurement Tools for Behavioral Economics
+::: {.grid}
+::: {.g-col-md-6}
+***Challenge:*** Key measurement tools in behavioral economics faced two major barriers to impact: their scientific consistency...was unverified, and their length made them inefficient for scalable online research.
 
-**Challenge:** Key measurement tools in behavioral economics faced two major barriers to impact: their scientific consistency across different versions was unverified, and their length made them inefficient for scalable online research.
+***Approach:*** I led a multi-phase research program analyzing data from over 800 participants. First, I conducted comparative psychometric analyses using Generalized Linear Mixed Models (GLMMs) to validate consistency across different instruments. With this validation established, I then developed and refined shorter versions of the questionnaires, balancing brevity with predictive accuracy.
 
-**Approach:** I led a multi-phase research program analyzing data from over 800 participants. First, I conducted comparative psychometric analyses using Generalized Linear Mixed Models (GLMMs) to validate consistency across different instruments. With this validation established, I then developed and refined shorter versions of the questionnaires, balancing brevity with predictive accuracy.
+***Contribution:*** This work delivered a suite of validated tools that reduced administration time by 33% while preserving psychometric integrity. The project provides foundational clarity on key measures in the field and equips researchers with more trustworthy, efficient instruments for measuring economic decision-making.
+:::
 
-**Contribution:** This work delivered a suite of validated tools that reduced administration time by 33% while preserving psychometric integrity. The project provides foundational clarity on key measures in the field and equips researchers with more trustworthy, efficient instruments for measuring economic decision-making.
-
+::: {.g-col-md-6}
 **Relevant Publications & Repositories:**
 
 <div class="hanging-indent">
@@ -96,26 +102,30 @@ Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (in preparation). *Delay-
 
 <p>
 **Wan, H.**, Green, L., & Myerson, J. (2024). Delayed monetary losses: Do different procedures and discounting measures assess the same construct?. *Behavioural Processes, 222*, 105101.
-<br>&nbsp;&nbsp;&nbsp; [View Paper](https://doi.org/10.1016/j.beproc.2024.105101) | [View GitHub Repository](https://github.com/haoranmattwan/discounting-delayed-losses-procedure-comparison-2024) | [View OSF Repository](https://osf.io/emb2q)
+<br>[View Paper](https://doi.org/10.1016/j.beproc.2024.105101) | [View GitHub Repository](https://github.com/haoranmattwan/discounting-delayed-losses-procedure-comparison-2024) | [View OSF Repository](https://osf.io/emb2q)
 </p>
 
 <p>
 **Wan, H.**, Myerson, J., & Green, L. (2023). Individual differences in degree of discounting: Do different procedures and measures assess the same construct?. *Behavioural Processes, 208*, 104864.
-<br>&nbsp;&nbsp;&nbsp; [View Paper](https://doi.org/10.1016/j.beproc.2023.104864) | [View GitHub Repository](https://github.com/haoranmattwan/discounting-delayed-gains-procedure-comparison-2023)
+<br>[View Paper](https://doi.org/10.1016/j.beproc.2024.105101) | [View GitHub Repository](https://github.com/haoranmattwan/discounting-delayed-gains-procedure-comparison-2023)
 </p>
 
 </div>
+:::
+:::
 
----
+### <span style="color:#A70E16;">**4. Foundational Principles**</span>
 
-### 4. Modeling Foundational Economic Principles in Controlled Systems
+::: {.grid}
+::: {.g-col-md-6}
+***Challenge:*** Testing core economic theories in real-world markets is challenging due to countless confounding variables. This research program developed a controlled laboratory system (a token economy with an animal model) to isolate and precisely quantify the foundational drivers of economic behavior.
 
-**Challenge:** Testing core economic theories in real-world markets is challenging due to countless confounding variables. This research program developed a controlled laboratory system (a token economy with an animal model) to isolate and precisely quantify the foundational drivers of economic behavior.
+***Approach:*** I designed experiments and applied specialized quantitative models to test core microeconomic principles. This included using nonlinear demand-curve and elasticity models to analyze labor/consumption trade-offs and fitting choice data to mathematical probability models to quantify risk preference.
 
-**Approach:** I designed experiments and applied specialized quantitative models to test core microeconomic principles. This included using nonlinear demand-curve and elasticity models to analyze labor/consumption trade-offs and fitting choice data to mathematical probability models to quantify risk preference.
+***Contribution:*** The models successfully replicated and quantified law-like patterns of economic choice, validating the system as a high-fidelity model for theory development. This work provides a robust, empirical framework for building behavioral forecasts from the ground up by isolating the impact of individual variables.
+:::
 
-**Contribution:** The models successfully replicated and quantified law-like patterns of economic choice, validating the system as a high-fidelity model for theory development. This work provides a robust, empirical framework for building behavioral forecasts from the ground up by isolating the impact of individual variables.
-
+::: {.g-col-md-6}
 **Relevant Publications & Repositories:**
 
 <div class="hanging-indent">
@@ -126,22 +136,26 @@ Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (in preparation). *Delay-
 
 <p>
 Oliveira, L., Green, L., Myerson, J., & **Wan, H.** (2025). Discounting of probabilistic food reinforcement by pigeons. *Journal of the Experimental Analysis of Behavior, 124*(1).
-<br>&nbsp;&nbsp;&nbsp; [View Paper](https://doi.org/10.1002/jeab.70042) | [View GitHub Repository](https://github.com/haoranmattwan/Pigeon-Probability-Discounting-2025) | [View OSF Repository](https://osf.io/scwg3)
+<br>[View Paper](https://doi.org/10.1002/jeab.70042) | [View GitHub Repository](https://github.com/haoranmattwan/Pigeon-Probability-Discounting-2025) | [View OSF Repository](https://osf.io/scwg3)
 </p>
 
 <p>
 Schulingkamp, R., **Wan, H.**, & Hackenberg, T. D. (2023). Social familiarity and reinforcement value: A behavioral-economic analysis of demand for social interaction with cagemate and non-cagemate female rats. *Frontiers in Psychology, 14*, 1158365.
-<br>&nbsp;&nbsp;&nbsp; [View Paper](https://doi.org/10.3389/fpsyg.2023.1158365) | [View GitHub Repository](https://github.com/haoranmattwan/demand-analysis-social-familiarity-2023)
+<br>[View Paper](https://doi.org/10.3389/fpsyg.2023.1158365) | [View GitHub Repository](https://github.com/haoranmattwan/demand-analysis-social-familiarity-2023)
 </p>
 
 <p>
 Kirkman, C., **Wan, H.**, & Hackenberg, T. D. (2022). A behavioral-economic analysis of demand and preference for social and food reinforcement in rats. *Learning and Motivation, 77*, 101780.
-<br>&nbsp;&nbsp;&nbsp; [View Paper](https://doi.org/10.1016/j.lmot.2021.101780) | [View GitHub Repository](https://github.com/haoranmattwan/behavioral-economic-demand-analysis-2022)
+<br>[View Paper](https://doi.org/10.1016/j.lmot.2021.101780) | [View GitHub Repository](https://github.com/haoranmattwan/behavioral-economic-demand-analysis-2022)
 </p>
 
 <p>
 **Wan, H.**, Kirkman, C. F., Jensen, G., & Hackenberg, T. D. (2021). Failure to find altruistic food sharing in rats. *Frontiers in Psychology, 12*, 696025.
-<br>&nbsp;&nbsp;&nbsp; [View Paper](https://doi.org/10.3389/fpsyg.2021.696025) | [View GitHub Repository](https://github.com/haoranmattwan/altruistic-behavior-rats-2021)
+<br>[View Paper](https://doi.org/10.3389/fpsyg.2021.696025) | [View GitHub Repository](https://github.com/haoranmattwan/altruistic-behavior-rats-2021)
 </p>
 
 </div>
+:::
+:::
+
+:::

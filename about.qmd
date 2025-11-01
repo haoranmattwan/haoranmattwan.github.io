@@ -8,7 +8,7 @@ comments: false
 extensions:
   iconify:
     set: "octicon"
-    size: "Large"
+    size: "1.9em"  
     inline: true
     mode: "svg"
 
@@ -17,16 +17,16 @@ about:
   image-width: 17em
   image-shape: rectangle
   links:
-    - text: "{{< iconify fa6-brands:github-square >}}"
+    - text: "{{< iconify fa6-brands:github >}}"
       aria-label: GitHub
       href: https://github.com/haoranmattwan
     - text: "{{< iconify fa6-brands:linkedin >}}"
       aria-label: LinkedIn
       href: https://www.linkedin.com/in/matt-haoran-wan
-    - text: "{{< iconify academicons:google-scholar-square >}}"
+    - text: "{{< iconify academicons:google-scholar >}}"
       aria-label: Google Scholar
       href: https://scholar.google.com/citations?user=wOmVqukAAAAJ&hl=en
-    - text: "{{< iconify fa6-solid:square-envelope >}}"
+    - text: "{{< iconify fa6-solid:envelope >}}"
       aria-label: Email
       href: mailto:haoran.w@wustl.edu
 
@@ -36,7 +36,7 @@ format:
     page-layout: full
 ---
 
-## About Me
+## <span style="color:#A70E16;">About Me</span>
 
 I am a quantitative scientist specializing in predictive modeling and computational methods, currently completing my PhD at Washington University in St. Louis. My work lives at the intersection of behavioral science and machine learning, and I am passionate about using data to understand and predict human behavior.
 

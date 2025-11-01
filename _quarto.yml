@@ -8,6 +8,7 @@ website:
   title: "Haoran (Matt) Wan"
   site-url: "https://haoranwan.com" 
   description: "Quantitative Scientist specializing in statistical inference and machine learning."
+  favicon: "assets/icon.jpg"
 
   # --- Navigation Bar ---
   navbar:
@@ -19,16 +20,17 @@ website:
       - href: about.qmd
         text: About
       - href: project.qmd
-        text: Project
-      - href: H.Wan. CV (Fall 2025).pdf
-        text: Curriculum Vitae
+        text: Projects
+      - href: cv_resume.qmd  
+        text: Credentials
 
 # --- Site-wide Formatting ---
 format: 
   html:
     theme: cosmo
     mainfont: "EB Garamond"
-    sansfont: "Inter"
+    sansfont: "EB Garamond"
+    monofont: "EB Garamond"
     css: styles.css
     pagetitle: "{{< meta title >}} | Haoran Wan"
 
