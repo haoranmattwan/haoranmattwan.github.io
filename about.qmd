@@ -40,4 +40,4 @@ I am a behavioral scientist and quantitative researcher specializing in computat
 
 My expertise spans the full research and data science lifecycle from designing controlled experiments (both online and in-lab) to building and validating advanced statistical models. I have a proven track record, demonstrated in multiple peer-reviewed publications, of applying techniques such as Bayesian inference, causal analysis, and mixed-effects modeling to uncover the drivers of complex human behavior. My primary toolkit includes R, Python, and SQL.
 
-I am driven to solve complex, high-stakes problems at the intersection of data and human behavior. I am passionate about working in collaborative settings to transform deep analytical insights into strategies and research that create tangible impact and drive innovation
+I am driven to solve complex, high-stakes problems at the intersection of data and human behavior. I am passionate about working in collaborative settings to transform deep analytical insights into strategies and research that create tangible impact and drive innovation.
