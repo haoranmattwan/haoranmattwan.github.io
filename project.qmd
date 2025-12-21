@@ -27,7 +27,7 @@ My research program is focused on developing and applying advanced computational
 <div class="hanging-indent">
 
 <p>
-**Wan, H.** (in progress). *Discounting of rewards that are both delayed and probabilistic: The effects of age and financial stress*. (Doctoral Dissertation Proposal).
+**Wan, H.** (in progress). *Age, income, and the discounting of rewards that are both delayed and probabilistic: The effects of financial and cognitive resources*. (Doctoral Dissertation Proposal).
 </p>
 
 <p>
@@ -45,7 +45,7 @@ My research program is focused on developing and applying advanced computational
 </p>
 
 <p>
-**Wan, H.**, Myerson, J., Green, L., Strube, M. J, & Hale, S. (in preparation). *Age, income, and the discounting of delayed and probabilistic rewards*.
+**Wan, H.**, Myerson, J., Green, L., Strube, M. J, & Hale, S. (under review). *Age, income, and the discounting of delayed and probabilistic rewards*.
 </p>
 
 </div>
@@ -101,7 +101,9 @@ Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (under review). *Delay-pr
 <div class="hanging-indent">
 
 <p>
-**Wan, H.**, Myerson, J., & Green, L. (under review). *Brief Assessments of Delay Discounting: Two-Amount Monetary Choice and Delayed Losses Questionnaires*.
+**Wan, H.**, Green, L., & Myerson, J. (2024). Brief Assessments of Delay Discounting: Two-Amount Monetary Choice and Delayed Losses Questionnaires. *The Psychological Record, 75*, 591–597.
+<br>[View Paper](https://doi.org/10.1007/s40732-025-00665-w) | [View GitHub Repository](https://github.com/haoranmattwan/Brief-Delay-Discounting-2025) | [View OSF Repository](https://osf.io/zy65s)
+
 </p>
 
 <p>

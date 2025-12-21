@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="./assets/icon.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-da95761f148c13a63132ea917bf710f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5cddb008e3eafae6c3727adc2a9be6f8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -82,8 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/logo.jpg" alt="" class="navbar-logo light-content">
-    <img src="./assets/logo.jpg" alt="" class="navbar-logo dark-content">
+    <img src="./assets/logo.jpg" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Haoran Wan</span>
@@ -156,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-anchor-id="about-me"><span style="color:#A70E16;">About Me</span></h2>
 <p>I am a behavioral scientist and quantitative researcher specializing in computational methods and predictive modeling. I am completing my Ph.D.&nbsp;in Psychological &amp; Brain Sciences at Washington University in St.&nbsp;Louis (exp. May 2026). My work lives at the intersection of behavioral economics and advanced statistical modeling.</p>
 <p>My expertise spans the full research and data science lifecycle from designing controlled experiments (both online and in-lab) to building and validating advanced statistical models. I have a proven track record, demonstrated in multiple peer-reviewed publications, of applying techniques such as Bayesian inference, causal analysis, and mixed-effects modeling to uncover the drivers of complex human behavior. My primary toolkit includes R, Python, and SQL.</p>
-<p>I am driven to solve complex, high-stakes problems at the intersection of data and human behavior. I am passionate about working in collaborative settings to transform deep analytical insights into strategies and research that create tangible impact and drive innovation</p>
+<p>I am driven to solve complex, high-stakes problems at the intersection of data and human behavior. I am passionate about working in collaborative settings to transform deep analytical insights into strategies and research that create tangible impact and drive innovation.</p>
 
 
 </section>
@@ -207,14 +205,13 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
