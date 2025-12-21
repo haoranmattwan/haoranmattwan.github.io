@@ -34,6 +34,16 @@ format:
     page-layout: full
 ---
 
+<style>
+/* Horizontal Icons Logic */
+.about-links {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  flex-wrap: nowrap !important;
+}
+</style>
+
 ## <span style="color:#A70E16;">About Me</span>
 
 I am a behavioral scientist and quantitative researcher specializing in computational methods and predictive modeling. I am completing my Ph.D. in Psychological & Brain Sciences at Washington University in St. Louis (exp. May 2026). My work lives at the intersection of behavioral economics and advanced statistical modeling. 

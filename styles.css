@@ -1,5 +1,40 @@
 /* css styles */
 
+/* Center all elements in the about page for jolla template */
+.quarto-about-jolla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Ensure the title and subtitle are also centered */
+.quarto-about-jolla .about-entity {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Force icons to stay horizontal on mobile in trestles/jolla */
+.about-links {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  flex-wrap: nowrap !important; /* Prevents wrapping to a new line */
+  gap: 15px; /* Adds space between icons */
+}
+
+/* Adjust margins for mobile to prevent overflow */
+@media (max-width: 768px) {
+  .about-links {
+    margin-top: 1em;
+    width: 100%;
+  }
+}
+
+
+
 .about-trestles .title {
   font-size: 2.0em; 
 }

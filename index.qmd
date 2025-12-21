@@ -15,7 +15,7 @@ extensions:
 
 about:
   template: jolla
-  image-width: 31em
+  image-width: 25em # Reduced slightly for better mobile scaling
   links:
     - text: "{{< iconify fa6-brands:github >}}"
       aria-label: GitHub
@@ -30,13 +30,31 @@ about:
       aria-label: Email
       href: mailto:haoran.w@wustl.edu
 
-page-layout: article
+page-layout: full # Changed to 'full' to allow the about template to manage margins
 
 execute: 
   freeze: false
   echo: false
 ---
 
+::: {.text-center}
+
 I am a behavioral scientist and 5th-year Ph.D. candidate at Washington University in St. Louis. 
 
 I build predictive models to understand complex human behavior and translate advanced statistical methods into actionable, data-driven decisions.
+
+:::
+
+<style>
+/* Forces the about-header to center on small screens */
+.quarto-about-jolla .about-header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Ensures body text doesn't lean left on mobile */
+.quarto-about-jolla .about-contents {
+  text-align: center;
+}
+</style>
