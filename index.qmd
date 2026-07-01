@@ -1,60 +1,73 @@
+
 ---
 title: "Haoran (Matt) Wan"
 pagetitle: "Haoran (Matt) Wan"
-subtitle: "Behavioral Scientist | Machine Learning & Statistical Inference"
+subtitle: "Behavioral scientist · Decision-making across the adult lifespan"
 comments: false
 
 image: "profile.jpg"
+image-alt: "Portrait of Haoran (Matt) Wan"
 
 extensions:
   iconify:
     set: "octicon"
-    size: "1.9em"  
+    size: "1.9em"
     inline: true
     mode: "svg"
 
 about:
   template: jolla
-  image-width: 25em # Reduced slightly for better mobile scaling
+  image-width: 22em # Sized for comfortable scaling down to mobile
   links:
-    - text: "{{< iconify fa6-brands:github >}}"
-      aria-label: GitHub
-      href: https://github.com/haoranmattwan
-    - text: "{{< iconify fa6-brands:linkedin >}}"
-      aria-label: LinkedIn
-      href: https://www.linkedin.com/in/matt-haoran-wan
     - text: "{{< iconify academicons:google-scholar >}}"
       aria-label: Google Scholar
       href: https://scholar.google.com/citations?user=wOmVqukAAAAJ&hl=en
+    - text: "{{< iconify academicons:orcid >}}"
+      aria-label: ORCID
+      href: https://orcid.org/0000-0002-3434-3146
+    - text: "{{< iconify fa6-brands:github >}}"
+      aria-label: GitHub
+      href: https://github.com/haoranmattwan
+    - text: "{{< iconify academicons:cv >}}"
+      aria-label: Curriculum Vitae
+      href: cv.qmd
     - text: "{{< iconify fa6-solid:envelope >}}"
       aria-label: Email
-      href: mailto:haoran.w@wustl.edu
+      href: mailto:haoran.wan@dukekunshan.edu.cn
 
-page-layout: full # Changed to 'full' to allow the about template to manage margins
+page-layout: full
 
-execute: 
+execute:
   freeze: false
   echo: false
 ---
 
-::: {.text-center}
+::: {.hero-intro}
 
-I am a behavioral scientist and 5th-year Ph.D. candidate at Washington University in St. Louis. 
+I am an incoming Assistant Professor of Behavioral Science at **Duke Kunshan University**.
 
-I build predictive models to understand complex human behavior and translate advanced statistical methods into actionable, data-driven decisions.
+My research asks how people value outcomes that are delayed, uncertain, or both, \
+and how those valuations shift with age, income, and individual circumstance across the adult lifespan.
 
 :::
 
 <style>
-/* Forces the about-header to center on small screens */
+/* Center the about-header and body text on all screen sizes */
 .quarto-about-jolla .about-header {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-
-/* Ensures body text doesn't lean left on mobile */
 .quarto-about-jolla .about-contents {
+  text-align: center;
+}
+
+/* Constrain just the intro paragraphs to a narrower, centered column */
+.hero-intro {
+  max-width: 800px;       /* narrows the hero text; adjust 500–700px to taste */
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;     /* center within the flex parent jolla uses */
   text-align: center;
 }
 </style>
