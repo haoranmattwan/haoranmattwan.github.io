@@ -16,12 +16,12 @@
   align-items: center;
 }
 
-/* Force icons to stay horizontal on mobile in trestles/jolla */
+/* Keep the social icons in a row; allow wrapping on very small screens */
 .about-links {
   display: flex !important;
   flex-direction: row !important;
   justify-content: center !important;
-  flex-wrap: nowrap !important; /* Prevents wrapping to a new line */
+  flex-wrap: wrap !important; /* was nowrap: wrap prevents overflow on narrow phones */
   gap: 15px; /* Adds space between icons */
 }
 
@@ -33,19 +33,26 @@
   }
 }
 
-
+/* Scale the profile image down on small screens so it never overflows */
+@media (max-width: 576px) {
+  .quarto-about-jolla .about-image,
+  .quarto-about-trestles .about-image {
+    max-width: 70% !important;
+    height: auto !important;
+  }
+}
 
 .about-trestles .title {
-  font-size: 2.0em; 
+  font-size: 2.0em;
 }
 
 .quarto-about-trestles .about-title {
-  font-size: 1.75em; 
+  font-size: 1.75em;
 }
 
 #title-block-header.quarto-title-block.default .quarto-title .subtitle {
   font-size: 1em;
-  color: gray
+  color: #595959; /* was "gray" (#808080); darkened for WCAG AA contrast on #ebebeb */
 }
 
 body {
@@ -56,26 +63,26 @@ body {
 
 .navbar-brand {
   font-family: 'EB Garamond', serif;
-  font-size: 1.15em; 
+  font-size: 1.15em;
   font-weight: 400;
 }
 
 .navbar-nav .nav-link {
   font-family: 'EB Garamond', serif;
-  font-size: 1.15em; 
-  font-weight: 400; 
-  color: #6c757d; 
+  font-size: 1.15em;
+  font-weight: 400;
+  color: #495057; /* was #6c757d; darkened for WCAG AA contrast on #ebebeb */
 }
 
 .navbar-nav .nav-link.active {
   font-weight: 400;
-  color: #000000 !important; 
+  color: #000000 !important;
 }
 
 .navbar {
   background-color: #ebebeb;
-  border-bottom: none; 
-  box-shadow: none;    
+  border-bottom: none;
+  box-shadow: none;
 }
 
 .navbar-brand-logo {
@@ -83,8 +90,11 @@ body {
   margin-right: 10px;
 }
 
+/* Reference lists (Publications / Research): hanging indent + small gap */
 .hanging-indent p {
-  margin-bottom: 0em; 
+  margin-bottom: 0.6em; /* was 0em; small gap improves readability */
+  padding-left: 2em;
+  text-indent: -2em;
 }
 
 .panel-tabset .nav-tabs {
