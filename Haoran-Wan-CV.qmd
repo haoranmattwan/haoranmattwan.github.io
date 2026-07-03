@@ -38,17 +38,14 @@ output-file: Haoran-Wan-CV.pdf
       grid(
         columns: (1fr, 1fr),
         align: (left, right),
-        text(size: 11pt, fill: gray)[Haoran (Matt) Wan],
-        text(size: 11pt, fill: gray)[Curriculum Vitae – July 2026]
+        text(size: 12pt, fill: gray)[Haoran (Matt) Wan],
+        text(size: 12pt, fill: gray)[Curriculum Vitae – July 2026]
       )
-      v(2pt)
-      line(length: 100%, stroke: 0.35pt + lightgray)
     }
   },
   footer: context {
     let current = counter(page).get().first()
-    let total = counter(page).final().first()
-    align(center, text(size: 8pt, fill: gray)[#current of #total])
+    align(center, text(size: 12pt, fill: gray)[#current])
   }
 )
 #set text(font: "EB Garamond", size: 12pt, fill: rgb("#191b1e"))
@@ -87,7 +84,7 @@ output-file: Haoran-Wan-CV.pdf
     #grid(
       columns: (.85in, 1fr),
       column-gutter: 0.13in,
-      text(size: 11pt, fill: gray)[#date],
+      text(size: 12pt, fill: gray)[#date],
       block(stroke: (left: 0.5pt + lightgray), inset: (left: 8pt))[#body]
     )
   ]
@@ -117,10 +114,10 @@ output-file: Haoran-Wan-CV.pdf
 
 #grid(
   columns: (1fr, 1fr),
-  column-gutter: 0.3in,
+  column-gutter: 0in,
   [
-    #text(weight: "bold", size: 11pt)[Assistant Professor of Behavioral Science] \
-    #text(weight: "bold", size: 11pt)[Duke Kunshan University] \
+    #text(weight: "bold", size: 12pt)[Assistant Professor of Behavioral Science] \
+    #text(weight: "bold", size: 12pt)[Duke Kunshan University] \
     #text(fill: gray)[Division of Social Sciences] \
     #text(fill: gray)[Kunshan, Jiangsu, China]
   ],
@@ -167,12 +164,16 @@ output-file: Haoran-Wan-CV.pdf
 #entry([2023, 2025], [*Sallie P. Asche Travel Award*, Center for Vital Longevity.])
 #entry([2022], [*Tony Nevin Student Award*, Society for the Quantitative Analyses of Behavior.])
 #entry([2021], [*Gerald M. Meier Award for Distinction in Economics*, Reed College.])
+#entry([2019–2021], [*Commendation for Excellence*, Reed College.])
 
 #section([Grants and Fellowships])
 
 // TODO: Add the public amount of the DKU start-up fund if desired.
 #entry([2026], [*Faculty Start-up Fund*, Duke Kunshan University. Principal Investigator.])
+#entry([2025], [*Pivot 314 Fellowship*, Washington University in St. Louis. Professional development fellowship.])
 #entry([2021–2026], [*University Fellowship*, Washington University in St. Louis. Doctoral funding fellowship.])
+#entry([2020], [*Student Summer Research Fellowship*, Reed College. Undergraduate research fellowship])
+#entry([2017, 2018], [*Opportunity Grants*, Reed College. Undergraduate research fellowship])
 
 #section([Peer-Reviewed Publications])
 
