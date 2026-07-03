@@ -391,7 +391,7 @@
   paper: "us-letter",
   margin: (left: 1in, right: 1in, top: 1in, bottom: 1in),
   header: context {
-    if counter(page).get().first() > 1 {
+    if counter(page).get().first() >= 1 {
       grid(
         columns: (1fr, 1fr),
         align: (left, right),
@@ -581,7 +581,7 @@
 
 #item([*Wan, H.*, Myerson, J., & Green, L. A multiplicative relation: On the independence of delay and probability discounting. _Manuscript in preparation._])
 
-#section([Conference Presentations], note: [12 presentations])
+#section([Conference Presentations])
 
 #subsection([Oral Presentations])
 
@@ -644,7 +644,7 @@
 
 Judgment and Decision-Making · Behavioral Economics · Statistics and Quantitative Methods · Research Methods · Learning and Behavior · Cognition and Aging · Introduction to Psychology
 
-#section([Research Mentoring], note: [5 students])
+#section([Research Mentoring])
 
 #entry([2025], [Mars, W. “Discounting of Probabilistic Losses Across the Adult Lifespan.” Research project, Washington University in St. Louis.])
 #entry([2025], [Chen, D. “Age, Income, and the Discounting of Delayed Monetary Losses.” Research project, Washington University in St. Louis.])
