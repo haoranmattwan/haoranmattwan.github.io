@@ -395,8 +395,8 @@
       grid(
         columns: (1fr, 1fr),
         align: (left, right),
-        text(size: 7.6pt, fill: gray)[Haoran (Matt) Wan],
-        text(size: 7.6pt, fill: gray)[Curriculum Vitae – July 2026]
+        text(size: 11pt, fill: gray)[Haoran (Matt) Wan],
+        text(size: 11pt, fill: gray)[Curriculum Vitae – July 2026]
       )
       v(2pt)
       line(length: 100%, stroke: 0.35pt + lightgray)
