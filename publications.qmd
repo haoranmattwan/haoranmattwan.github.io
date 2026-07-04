@@ -15,21 +15,21 @@ Links: **Paper** = published article · **Code** = analysis repository (GitHub) 
 ## [In press]{style="color:#A70E16;"}
 
 ::: {.hanging-indent}
-<p>Myerson, J., Green, L., Vanderveldt, A., & Wan, H. (in press). Delay–probability asymmetry in discounting: An anomaly in multiattribute choice. *Journal of the Experimental Analysis of Behavior.*</p>
+<p>Myerson, J., Green, L., Vanderveldt, A., & Wan, H. (in press). Delay–probability asymmetry in discounting: An anomaly in multiattribute choice. *Journal of the Experimental Analysis of Behavior.* [Code](https://github.com/haoranmattwan/delay_probability_asymmetry_2026) · [Data](https://osf.io/6cetp)</p>
 :::
 
 ## [Peer-reviewed articles]{style="color:#A70E16;"}
 
 ::: {.hanging-indent}
-<p>Wan, H., Myerson, J., Green, L., Strube, M. J., & Hale, S. (2026). Age, income, and the discounting of delayed and probabilistic rewards. *Frontiers in Psychology, 17*, 1765142. [Paper](https://doi.org/10.3389/fpsyg.2026.1765142)</p>
+<p>Wan, H., Myerson, J., Green, L., Strube, M. J., & Hale, S. (2026). Age, income, and the discounting of delayed and probabilistic rewards. *Frontiers in Psychology, 17*, 1765142. [Paper](https://doi.org/10.3389/fpsyg.2026.1765142) · [Code](https://github.com/haoranmattwan/age-income-gain-discounting-2026)</p>
 
-<p>Wan, H., Tan, L., & Hackenberg, T. D. (2026). Behavioral economic analysis of pigeons' token accumulation and reinforcer demand in a laboratory-based token economy. *Journal of the Experimental Analysis of Behavior, 125*(2), e70095.</p>
+<p>Wan, H., Tan, L., & Hackenberg, T. D. (2026). Behavioral economic analysis of pigeons' token accumulation and reinforcer demand in a laboratory-based token economy. *Journal of the Experimental Analysis of Behavior, 125*(2), e70095. [Paper](https://doi.org/10.1002/jeab.70095) · [Code](https://github.com/haoranmattwan/pigeon_token_economy_2026) · [Data](https://osf.io/a7523)</p>
 
-<p>Wan, H., Green, L., & Myerson, J. (2025). Brief assessments of delay discounting: Two-amount monetary choice and delayed losses questionnaires. *The Psychological Record, 75*, 591–597. [Paper](https://doi.org/10.1007/s40732-025-00665-w) · [Code](https://github.com/haoranmattwan/Brief-Delay-Discounting-2025) · [Data](https://osf.io/zy65s)</p>
+<p>Wan, H., Green, L., & Myerson, J. (2025). Brief assessments of delay discounting: Two-amount monetary choice and delayed losses questionnaires. *The Psychological Record, 75*, 591–597. [Paper](https://doi.org/10.1007/s40732-025-00665-w) · [Code](https://github.com/haoranmattwan/brief-delay-discounting-2025) · [Data](https://osf.io/zy65s)</p>
 
-<p>Wan, H., Myerson, J., Green, L., Strube, M. J., & Hale, S. (2025). Age, income, and the discounting of delayed monetary losses. *The Journals of Gerontology: Series B, 80*(11), gbaf162. [Paper](https://doi.org/10.1093/geronb/gbaf162) · [Code](https://github.com/haoranmattwan/Age-Income-Loss-Discounting-2025) · [Data](https://osf.io/4ym2r)</p>
+<p>Wan, H., Myerson, J., Green, L., Strube, M. J., & Hale, S. (2025). Age, income, and the discounting of delayed monetary losses. *The Journals of Gerontology: Series B, 80*(11), gbaf162. [Paper](https://doi.org/10.1093/geronb/gbaf162) · [Code](https://github.com/haoranmattwan/age-income-loss-discounting-2025) · [Data](https://osf.io/4ym2r)</p>
 
-<p>Oliveira, L., Green, L., Myerson, J., & Wan, H. (2025). Discounting of probabilistic food reinforcement by pigeons. *Journal of the Experimental Analysis of Behavior, 124*(1). [Paper](https://doi.org/10.1002/jeab.70042) · [Code](https://github.com/haoranmattwan/Pigeon-Probability-Discounting-2025) · [Data](https://osf.io/scwg3)</p>
+<p>Oliveira, L., Green, L., Myerson, J., & Wan, H. (2025). Discounting of probabilistic food reinforcement by pigeons. *Journal of the Experimental Analysis of Behavior, 124*(1), e70042. [Paper](https://doi.org/10.1002/jeab.70042) · [Code](https://github.com/haoranmattwan/pigeon-probability-discounting-2025) · [Data](https://osf.io/scwg3)</p>
 
 <p>Wan, H., Green, L., & Myerson, J. (2024). Delayed monetary losses: Do different procedures and discounting measures assess the same construct? *Behavioural Processes, 222*, 105101. [Paper](https://doi.org/10.1016/j.beproc.2024.105101) · [Code](https://github.com/haoranmattwan/discounting-delayed-losses-procedure-comparison-2024) · [Data](https://osf.io/emb2q)</p>
 
@@ -57,7 +57,7 @@ Links: **Paper** = published article · **Code** = analysis repository (GitHub) 
 ## [Dissertation & Thesis]{style="color:#A70E16;"}
 
 ::: {.hanging-indent}
-</p>Wan, H. (2026). *Age, income, and the discounting of delayed and probabilistic rewards: The roles of financial resources and attribute salience* (Dissertation, Washington University in St. Louis).</p>
+<p>Wan, H. (2026). *Age, income, and the discounting of delayed and probabilistic rewards: The roles of financial resources and attribute salience* (Dissertation, Washington University in St. Louis). [Paper](https://openscholarship.wustl.edu/art_sci_etds/3738/)</p>
 
 <p>Wan, H. (2023). *Discounting of delayed and probabilistic outcomes across the adult lifespan* (Master's thesis, Washington University in St. Louis).</p>
 :::

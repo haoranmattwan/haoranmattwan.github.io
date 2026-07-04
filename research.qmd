@@ -92,9 +92,9 @@ Alongside the human studies, we investigate the basic regularities of choice usi
 **Selected publications**
 
 ::: {.hanging-indent}
-<p>**Wan, H.**, Tan, L., & Hackenberg, T. D. (2026). Behavioral economic analysis of pigeons' token accumulation and reinforcer demand in a laboratory-based token economy. *Journal of the Experimental Analysis of Behavior, 125*(2), e70095.</p>
+<p>**Wan, H.**, Tan, L., & Hackenberg, T. D. (2026). Behavioral economic analysis of pigeons' token accumulation and reinforcer demand in a laboratory-based token economy. *Journal of the Experimental Analysis of Behavior, 125*(2), e70095. [Paper](https://doi.org/10.1002/jeab.70095)</p>
 
-<p>Oliveira, L., Green, L., Myerson, J., & **Wan, H.** (2025). Discounting of probabilistic food reinforcement by pigeons. *Journal of the Experimental Analysis of Behavior, 124*(1). [Paper](https://doi.org/10.1002/jeab.70042)</p>
+<p>Oliveira, L., Green, L., Myerson, J., & **Wan, H.** (2025). Discounting of probabilistic food reinforcement by pigeons. *Journal of the Experimental Analysis of Behavior, 124*(1), e70042. [Paper](https://doi.org/10.1002/jeab.70042)</p>
 
 <p>Kirkman, C., **Wan, H.**, & Hackenberg, T. D. (2022). A behavioral-economic analysis of demand and preference for social and food reinforcement in rats. *Learning and Motivation, 77*, 101780. [Paper](https://doi.org/10.1016/j.lmot.2021.101780)</p>
 :::

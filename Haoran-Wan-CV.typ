@@ -538,21 +538,21 @@
 
 #subsection([In Press])
 
-#item([Myerson, J., Green, L., Vanderveldt, A., & *Wan, H.* (in press). Delay–probability asymmetry in discounting: An anomaly in multiattribute choice. _Journal of the Experimental Analysis of Behavior._])
+#item([Myerson, J., Green, L., Vanderveldt, A., & *Wan, H.* (in press). Delay–probability asymmetry in discounting: An anomaly in multiattribute choice. _Journal of the Experimental Analysis of Behavior._ #h(0.3em) #tag("CODE", "https://github.com/haoranmattwan/delay_probability_asymmetry_2026") #h(0.25em) #tag("DATA", "https://osf.io/6cetp")])
 
 #subsection([2026])
 
-#item([*Wan, H.*, Myerson, J., Green, L., Strube, M. J., & Hale, S. (2026). Age, income, and the discounting of delayed and probabilistic rewards. _Frontiers in Psychology, 17_, 1765142. #h(0.3em) #tag("PAPER", "https://doi.org/10.3389/fpsyg.2026.1765142")])
+#item([*Wan, H.*, Myerson, J., Green, L., Strube, M. J., & Hale, S. (2026). Age, income, and the discounting of delayed and probabilistic rewards. _Frontiers in Psychology, 17_, 1765142. #h(0.3em) #tag("PAPER", "https://doi.org/10.3389/fpsyg.2026.1765142") #h(0.25em) #tag("CODE", "https://github.com/haoranmattwan/age-income-gain-discounting-2026")])
 
-#item([*Wan, H.*, Tan, L., & Hackenberg, T. D. (2026). Behavioral economic analysis of pigeons’ token accumulation and reinforcer demand in a laboratory-based token economy. _Journal of the Experimental Analysis of Behavior, 125_(2), e70095. #h(0.3em) #tag("PAPER", "https://doi.org/10.1002/jeab.70095")])
+#item([*Wan, H.*, Tan, L., & Hackenberg, T. D. (2026). Behavioral economic analysis of pigeons’ token accumulation and reinforcer demand in a laboratory-based token economy. _Journal of the Experimental Analysis of Behavior, 125_(2), e70095. #h(0.3em) #tag("PAPER", "https://doi.org/10.1002/jeab.70095") #h(0.25em) #tag("CODE", "https://github.com/haoranmattwan/pigeon_token_economy_2026") #h(0.25em) #tag("DATA", "https://osf.io/a7523")])
 
 #subsection([2025])
 
-#item([*Wan, H.*, Green, L., & Myerson, J. (2025). Brief assessments of delay discounting: Two-amount monetary choice and delayed losses questionnaires. _The Psychological Record, 75_, 591–597. #h(0.3em) #tag("PAPER", "https://doi.org/10.1007/s40732-025-00665-w") #h(0.25em) #tag("CODE", "https://github.com/haoranmattwan/Brief-Delay-Discounting-2025") #h(0.25em) #tag("DATA", "https://osf.io/zy65s")])
+#item([*Wan, H.*, Green, L., & Myerson, J. (2025). Brief assessments of delay discounting: Two-amount monetary choice and delayed losses questionnaires. _The Psychological Record, 75_, 591–597. #h(0.3em) #tag("PAPER", "https://doi.org/10.1007/s40732-025-00665-w") #h(0.25em) #tag("CODE", "https://github.com/haoranmattwan/brief-delay-discounting-2025") #h(0.25em) #tag("DATA", "https://osf.io/zy65s")])
 
-#item([*Wan, H.*, Myerson, J., Green, L., Strube, M. J., & Hale, S. (2025). Age, income, and the discounting of delayed monetary losses. _The Journals of Gerontology: Series B, 80_(11), gbaf162. #h(0.3em) #tag("PAPER", "https://doi.org/10.1093/geronb/gbaf162") #h(0.25em) #tag("CODE", "https://github.com/haoranmattwan/Age-Income-Loss-Discounting-2025") #h(0.25em) #tag("DATA", "https://osf.io/4ym2r")])
+#item([*Wan, H.*, Myerson, J., Green, L., Strube, M. J., & Hale, S. (2025). Age, income, and the discounting of delayed monetary losses. _The Journals of Gerontology: Series B, 80_(11), gbaf162. #h(0.3em) #tag("PAPER", "https://doi.org/10.1093/geronb/gbaf162") #h(0.25em) #tag("CODE", "https://github.com/haoranmattwan/age-income-loss-discounting-2025") #h(0.25em) #tag("DATA", "https://osf.io/4ym2r")])
 
-#item([Oliveira, L., Green, L., Myerson, J., & *Wan, H.* (2025). Discounting of probabilistic food reinforcement by pigeons. _Journal of the Experimental Analysis of Behavior, 124_(1), e70042. #h(0.3em) #tag("PAPER", "https://doi.org/10.1002/jeab.70042") #h(0.25em) #tag("CODE", "https://github.com/haoranmattwan/Pigeon-Probability-Discounting-2025") #h(0.25em) #tag("DATA", "https://osf.io/scwg3")])
+#item([Oliveira, L., Green, L., Myerson, J., & *Wan, H.* (2025). Discounting of probabilistic food reinforcement by pigeons. _Journal of the Experimental Analysis of Behavior, 124_(1), e70042. #h(0.3em) #tag("PAPER", "https://doi.org/10.1002/jeab.70042") #h(0.25em) #tag("CODE", "https://github.com/haoranmattwan/pigeon-probability-discounting-2025") #h(0.25em) #tag("DATA", "https://osf.io/scwg3")])
 
 #subsection([2024])
 

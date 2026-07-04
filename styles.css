@@ -1,5 +1,9 @@
 /* css styles */
 
+/* Load EB Garamond as a webfont; without this, visitors without the font
+   installed locally fall back to a generic serif. */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 /* Center all elements in the about page for jolla template */
 .quarto-about-jolla {
   display: flex;
