@@ -439,7 +439,7 @@
 #let entry(date, body, keep: true) = {
   block(breakable: not keep, width: 100%, below: 1.15em)[
     #grid(
-      columns: (.85in, 1fr),
+      columns: (.91in, 1fr),
       column-gutter: 0.13in,
       text(size: 12pt, fill: gray)[#date],
       block(stroke: (left: 0.5pt + lightgray), inset: (left: 8pt))[#body]
