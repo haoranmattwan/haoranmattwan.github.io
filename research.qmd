@@ -1,0 +1,107 @@
+
+---
+title: "Research"
+pagetitle: "Research"
+comments: false
+format:
+  html:
+    page-layout: full
+---
+
+My research concerns **discounting** — the decline in the present value of an outcome when it is delayed or uncertain — and what it reveals about how people make decisions across the adult lifespan.  My work spans four related areas.
+
+::::::: {.panel-tabset}
+
+### [Decision-making & aging]{style="color:#A70E16;"}
+
+::::: {.grid}
+
+:::: {.g-col-12 .g-col-md-7}
+Whether people become more or less far-sighted with age has long been contested.  Our work indicates that the answer depends on economic circumstance. Among higher-income adults, younger and older people discount delayed rewards to a similar degree, whereas among lower-income adults, younger adults discount far more steeply — a difference largely accounted for by psychological distress.  The same income gradient appears for delayed losses, which older adults discount less steeply, leading to choices that limit long-term costs.  Age differences in discounting thus appear to be conditional rather than general, emerging mainly where financial scarcity bears on the decision.
+::::
+
+:::: {.g-col-12 .g-col-md-5}
+**Selected publications**
+
+::: {.hanging-indent}
+<p>**Wan, H.** (2026). *Age, income, and the discounting of delayed and probabilistic rewards: The roles of financial resources and attribute salience* (Dissertation, Washington University in St. Louis). [Paper](https://openscholarship.wustl.edu/art_sci_etds/3738/)</p>
+
+<p>**Wan, H.**, Myerson, J., Green, L., Strube, M. J., & Hale, S. (2026). Age, income, and the discounting of delayed and probabilistic rewards. *Frontiers in Psychology, 17*, 1765142. [Paper](https://doi.org/10.3389/fpsyg.2026.1765142)</p>
+
+<p>**Wan, H.**, Myerson, J., Green, L., Strube, M. J., & Hale, S. (2025). Age, income, and the discounting of delayed monetary losses. *The Journals of Gerontology: Series B, 80*(11), gbaf162. [Paper](https://doi.org/10.1093/geronb/gbaf162)</p>
+
+<p>**Wan, H.**, Myerson, J., Green, L., Strube, M. J., & Hale, S. (2024). Age-related differences in delay discounting: Income matters. *Psychology and Aging, 39*(6), 632. [Paper](https://doi.org/10.1037/pag0000818)</p>
+:::
+::::
+
+:::::
+
+### [Multi-attribute choice]{style="color:#A70E16;"}
+
+::::: {.grid}
+
+:::: {.g-col-12 .g-col-md-7}
+Many consequential outcomes are both delayed and uncertain, yet delay and probability are usually studied in isolation.  We examine how people combine these attributes, and find that they interact rather than contribute independently to value.  The well-documented delay–probability asymmetry, for example, arises because delay discounting becomes shallower when an outcome is also uncertain — people become more patient — rather than because probability simply becomes more salient.  Characterizing these interactions clarifies how multiple attributes are integrated into a single judgment of value.
+::::
+
+:::: {.g-col-12 .g-col-md-5}
+**Selected publications**
+
+::: {.hanging-indent}
+<p>Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (in press). Delay–probability asymmetry in discounting: An anomaly in multiattribute choice. *Journal of the Experimental Analysis of Behavior.*</p>
+
+<p>**Wan, H.**, Myerson, J., & Green, L. (in preparation). A multiplicative relation: On the independence of delay and probability discounting.</p>
+
+<p>**Wan, H.**, Myerson, J., & Green, L. (in preparation). A parsimonious simplification of Killeen's general theory of discounting.</p>
+:::
+::::
+
+:::::
+
+### [Measuring discounting]{style="color:#A70E16;"}
+
+::::: {.grid}
+
+:::: {.g-col-12 .g-col-md-7}
+Conclusions about who discounts steeply are only as sound as the measures behind them.  We assess whether different discounting procedures and indices capture the same underlying construct, and we develop briefer instruments that preserve that information.  Across large samples, different procedures converge on a common construct, and shortened questionnaires retain their measurement quality while substantially reducing administration time — making discounting easier to assess in large-scale and applied research.
+::::
+
+:::: {.g-col-12 .g-col-md-5}
+**Selected publications**
+
+::: {.hanging-indent}
+<p>**Wan, H.**, Green, L., & Myerson, J. (2025). Brief assessments of delay discounting: Two-amount monetary choice and delayed losses questionnaires. *The Psychological Record, 75*, 591–597. [Paper](https://doi.org/10.1007/s40732-025-00665-w)</p>
+
+<p>**Wan, H.**, Green, L., & Myerson, J. (2024). Delayed monetary losses: Do different procedures and discounting measures assess the same construct? *Behavioural Processes, 222*, 105101. [Paper](https://doi.org/10.1016/j.beproc.2024.105101)</p>
+
+<p>**Wan, H.**, Myerson, J., & Green, L. (2023). Individual differences in degree of discounting: Do different procedures and measures assess the same construct? *Behavioural Processes, 208*, 104864. [Paper](https://doi.org/10.1016/j.beproc.2023.104864)</p>
+:::
+::::
+
+:::::
+
+### [Foundations of choice]{style="color:#A70E16;"}
+
+::::: {.grid}
+
+:::: {.g-col-12 .g-col-md-7}
+Alongside the human studies, we investigate the basic regularities of choice using controlled laboratory paradigms, including token economies and demand analyses with animal models.  Fitting formal demand, elasticity, and discounting functions to these data shows that choice follows orderly, replicable patterns, providing a controlled setting in which to test and refine behavioral-economic theory.
+::::
+
+:::: {.g-col-12 .g-col-md-5}
+**Selected publications**
+
+::: {.hanging-indent}
+<p>**Wan, H.**, Tan, L., & Hackenberg, T. D. (2026). Behavioral economic analysis of pigeons' token accumulation and reinforcer demand in a laboratory-based token economy. *Journal of the Experimental Analysis of Behavior, 125*(2), e70095. [Paper](https://doi.org/10.1002/jeab.70095)</p>
+
+<p>Oliveira, L., Green, L., Myerson, J., & **Wan, H.** (2025). Discounting of probabilistic food reinforcement by pigeons. *Journal of the Experimental Analysis of Behavior, 124*(1), e70042. [Paper](https://doi.org/10.1002/jeab.70042)</p>
+
+<p>Kirkman, C., **Wan, H.**, & Hackenberg, T. D. (2022). A behavioral-economic analysis of demand and preference for social and food reinforcement in rats. *Learning and Motivation, 77*, 101780. [Paper](https://doi.org/10.1016/j.lmot.2021.101780)</p>
+:::
+::::
+
+:::::
+
+:::::::
+
+See the [Publications](publications.qmd) page for the complete list, including data and code repositories.

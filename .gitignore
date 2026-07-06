@@ -1,0 +1,14 @@
+# Quarto build artifacts
+/.quarto/
+**/*.quarto_ipynb
+_site/
+_freeze/
+
+# macOS metadata (this volume creates AppleDouble ._* files constantly)
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Claude Code local settings
+.claude/

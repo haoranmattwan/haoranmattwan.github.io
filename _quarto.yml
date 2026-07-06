@@ -1,0 +1,53 @@
+
+project:
+  type: website
+  resources:
+    - "profile.jpg"
+    - "assets/*"
+    - "*.pdf"
+
+lang: en
+
+website:
+  title: "Haoran (Matt) Wan"
+  site-url: "https://haoranwan.com"
+  description: "Haoran (Matt) Wan — behavioral scientist studying judgment and decision-making across the adult lifespan, with a focus on delay and probability discounting."
+  favicon: "assets/icon.jpg"
+  open-graph: true
+  twitter-card: true
+
+  # --- Navigation Bar ---
+  navbar:
+    title: "Haoran Wan"
+    logo: "assets/logo.jpg"
+    logo-alt: "Haoran Wan logo"
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+
+  page-footer:
+    left: >-
+     &#169; 2026 Haoran Wan &#8729; Built with [Quarto](https://quarto.org)
+
+# --- Site-wide Formatting ---
+format:
+  html:
+    theme: cosmo
+    mainfont: "EB Garamond"
+    sansfont: "EB Garamond"
+    monofont: "EB Garamond"
+    css: styles.css
+    pagetitle: "{{< meta title >}} | Haoran Wan"
+
+execute:
+  freeze: true

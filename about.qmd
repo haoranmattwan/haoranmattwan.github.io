@@ -1,0 +1,60 @@
+
+---
+title: "Haoran (Matt) Wan"
+subtitle: "Behavioral scientist · Decision-making across the adult lifespan"
+image: "profile.jpg"
+image-alt: "Portrait of Haoran (Matt) Wan"
+comments: false
+
+extensions:
+  iconify:
+    set: "octicon"
+    size: "1.9em"
+    inline: true
+    mode: "svg"
+
+about:
+  template: trestles
+  image-width: 17em
+  image-shape: rectangle
+  links:
+    - text: "{{< iconify academicons:google-scholar >}}"
+      aria-label: Google Scholar
+      href: https://scholar.google.com/citations?user=wOmVqukAAAAJ&hl=en
+    - text: "{{< iconify academicons:orcid >}}"
+      aria-label: ORCID
+      href: https://orcid.org/0000-0002-3434-3146
+    - text: "{{< iconify fa6-brands:github >}}"
+      aria-label: GitHub
+      href: https://github.com/haoranmattwan
+    - text: "{{< iconify academicons:cv >}}"
+      aria-label: Curriculum Vitae
+      href: cv.qmd
+    - text: "{{< iconify fa6-solid:envelope >}}"
+      aria-label: Email
+      href: mailto:haoran.wan@dukekunshan.edu.cn
+
+format:
+  html:
+    page-layout: full
+---
+
+<style>
+/* Keep the social icons in a row, but allow wrapping on very small screens */
+.about-links {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+}
+</style>
+
+## [About me]{style="color:#A70E16;"}
+
+My research examines how age and income shape decision-making across the adult lifespan, with a focus on delay and probability discounting — how people value rewards that are delayed, uncertain, or both, including outcomes that are simultaneously delayed and probabilistic.  I study how personality, cognitive ability, and financial resources — financial security and financial literacy — shape the way older and younger adults weigh these attributes when making decisions.
+
+A central focus of this work is attribute weighting: how strongly each dimension of an outcome — its amount, delay, or probability — counts toward its value, and how that weighting changes when several dimensions must be considered at once.  I examine how the salience of each attribute and an individual's cognitive ability govern this process, and how the resulting weights vary with factors such as age, income, and personality.
+
+I am completing my Ph.D. in Psychological & Brain Sciences at Washington University in St. Louis, and I hold a B.A. in Economics and Psychology from Reed College.  I am an incoming Assistant Professor of Behavioral Science at Duke Kunshan University, where I am establishing the Lifespan Decision Science Lab.
+
+
