@@ -48,11 +48,11 @@ Many consequential outcomes are both delayed and uncertain, yet delay and probab
 **Selected publications**
 
 ::: {.hanging-indent}
-<p>Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (in press). Delay–probability asymmetry in discounting: An anomaly in multiattribute choice. *Journal of the Experimental Analysis of Behavior.*</p>
+<p>Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (2026). Delay–probability asymmetry in discounting: An anomaly in multiattribute choice. *Journal of the Experimental Analysis of Behavior, 126*(1), e70123. [Paper](https://doi.org/10.1002/jeab.70123)</p>
 
-<p>**Wan, H.**, Myerson, J., & Green, L. (in preparation). A multiplicative relation: On the independence of delay and probability discounting.</p>
+<p>**Wan, H.**, Myerson, J., & Green, L. (in preparation). Asymmetric conditioning in the discounting of delayed, probabilistic rewards: A test of three combination rules.</p>
 
-<p>**Wan, H.**, Myerson, J., & Green, L. (in preparation). A parsimonious simplification of Killeen's general theory of discounting.</p>
+<p>**Wan, H.**, Myerson, J., & Green, L. (in preparation). Delay and probability discounting: From standard to more complex, multi-attribute choice options.</p>
 :::
 ::::
 

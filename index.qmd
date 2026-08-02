@@ -44,7 +44,8 @@ execute:
 
 ::: {.hero-intro}
 
-I am an incoming Assistant Professor of Behavioral Science at **Duke Kunshan University**.
+I am an Assistant Professor of Behavioral Science at **Duke Kunshan University**, \
+where I direct the Lifespan Decision Science Lab.
 
 My research asks how people value outcomes that are delayed, uncertain, or both, \
 and how those valuations shift with age, income, and individual circumstance across the adult lifespan.

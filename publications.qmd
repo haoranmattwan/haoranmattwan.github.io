@@ -12,18 +12,14 @@ format:
 
 Links: **Paper** = published article · **Code** = analysis repository (GitHub) · **Data** = materials and data (OSF).
 
-## [In press]{style="color:#A70E16;"}
-
-::: {.hanging-indent}
-<p>Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (in press). Delay–probability asymmetry in discounting: An anomaly in multiattribute choice. *Journal of the Experimental Analysis of Behavior.* [Code](https://github.com/haoranmattwan/delay_probability_asymmetry_2026) · [Data](https://osf.io/6cetp)</p>
-:::
-
 ## [Peer-reviewed articles]{style="color:#A70E16;"}
 
 ::: {.hanging-indent}
 <p>**Wan, H.**, Myerson, J., Green, L., Strube, M. J., & Hale, S. (2026). Age, income, and the discounting of delayed and probabilistic rewards. *Frontiers in Psychology, 17*, 1765142. [Paper](https://doi.org/10.3389/fpsyg.2026.1765142) · [Code](https://github.com/haoranmattwan/age-income-gain-discounting-2026) · [Data](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1765142/full#supplementaryMaterial)</p>
 
 <p>**Wan, H.**, Tan, L., & Hackenberg, T. D. (2026). Behavioral economic analysis of pigeons' token accumulation and reinforcer demand in a laboratory-based token economy. *Journal of the Experimental Analysis of Behavior, 125*(2), e70095. [Paper](https://doi.org/10.1002/jeab.70095) · [Code](https://github.com/haoranmattwan/pigeon_token_economy_2026) · [Data](https://osf.io/a7523)</p>
+
+<p>Myerson, J., Green, L., Vanderveldt, A., & **Wan, H.** (2026). Delay–probability asymmetry in discounting: An anomaly in multiattribute choice. *Journal of the Experimental Analysis of Behavior, 126*(1), e70123. [Paper](https://doi.org/10.1002/jeab.70123) · [Code](https://github.com/haoranmattwan/delay_probability_asymmetry_2026) · [Data](https://osf.io/6cetp)</p>
 
 <p>**Wan, H.**, Green, L., & Myerson, J. (2025). Brief assessments of delay discounting: Two-amount monetary choice and delayed losses questionnaires. *The Psychological Record, 75*, 591–597. [Paper](https://doi.org/10.1007/s40732-025-00665-w) · [Code](https://github.com/haoranmattwan/brief-delay-discounting-2025) · [Data](https://osf.io/zy65s)</p>
 
@@ -49,9 +45,9 @@ Links: **Paper** = published article · **Code** = analysis repository (GitHub) 
 ::: {.hanging-indent}
 <p>**Wan, H.** (in preparation). Age, income, and the discounting of rewards that are both delayed and probabilistic: The effects of financial and cognitive resources.</p>
 
-<p>**Wan, H.**, Myerson, J., & Green, L. (in preparation). A parsimonious simplification of Killeen's general theory of discounting.</p>
+<p>**Wan, H.**, Myerson, J., & Green, L. (in preparation). Asymmetric conditioning in the discounting of delayed, probabilistic rewards: A test of three combination rules.</p>
 
-<p>**Wan, H.**, Myerson, J., & Green, L. (in preparation). A multiplicative relation: On the independence of delay and probability discounting.</p>
+<p>**Wan, H.**, Myerson, J., & Green, L. (in preparation). Delay and probability discounting: From standard to more complex, multi-attribute choice options.</p>
 :::
 
 ## [Dissertation & Thesis]{style="color:#A70E16;"}
