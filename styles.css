@@ -4,7 +4,72 @@
    installed locally fall back to a generic serif. */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
-/* Center all elements in the about page for jolla template */
+/* ---------------------------------------------------------------------------
+   Brand palette — mirrors the CV (Typst): navy headings, royal-blue links,
+   hairline rules. Keeping site and CV on one palette is deliberate.
+   --------------------------------------------------------------------------- */
+:root {
+  --brand-navy: #012169;   /* headings, section titles (CV navy) */
+  --brand-royal: #00539b;  /* links and badges (CV link blue) */
+  --brand-ink: #191b1e;    /* body text (CV body color) */
+  --brand-muted: #595959;  /* secondary text; AA contrast on #ebebeb */
+  --brand-rule: #d9d9d9;   /* hairline rules */
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  font-size: 14pt;
+  background-color: #ebebeb;
+  color: var(--brand-ink);
+}
+
+/* Headings and content links: one palette across site and CV */
+main h1, main h2, main h3, main h4,
+.quarto-title .title {
+  color: var(--brand-navy);
+}
+main a {
+  color: var(--brand-royal);
+}
+main a:hover {
+  color: var(--brand-navy);
+}
+
+/* ---------------------------------------------------------------------------
+   Navbar
+   --------------------------------------------------------------------------- */
+.navbar-brand {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.15em;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.15em;
+  font-weight: 400;
+  color: #495057; /* darkened for WCAG AA contrast on #ebebeb */
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 400;
+  color: #000000 !important;
+}
+
+.navbar {
+  background-color: #ebebeb;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+.navbar-brand-logo {
+  width: auto;
+  margin-right: 10px;
+}
+
+/* ---------------------------------------------------------------------------
+   About / home (jolla + trestles templates)
+   --------------------------------------------------------------------------- */
 .quarto-about-jolla {
   display: flex;
   flex-direction: column;
@@ -12,7 +77,6 @@
   text-align: center;
 }
 
-/* Ensure the title and subtitle are also centered */
 .quarto-about-jolla .about-entity {
   width: 100%;
   display: flex;
@@ -25,11 +89,10 @@
   display: flex !important;
   flex-direction: row !important;
   justify-content: center !important;
-  flex-wrap: wrap !important; /* was nowrap: wrap prevents overflow on narrow phones */
-  gap: 15px; /* Adds space between icons */
+  flex-wrap: wrap !important; /* wrap prevents overflow on narrow phones */
+  gap: 15px;
 }
 
-/* Adjust margins for mobile to prevent overflow */
 @media (max-width: 768px) {
   .about-links {
     margin-top: 1em;
@@ -56,52 +119,138 @@
 
 #title-block-header.quarto-title-block.default .quarto-title .subtitle {
   font-size: 1em;
-  color: #595959; /* was "gray" (#808080); darkened for WCAG AA contrast on #ebebeb */
+  color: #595959; /* darkened for WCAG AA contrast on #ebebeb */
 }
 
-body {
-  font-family: 'EB Garamond', serif;
-  font-size: 14pt;
-  background-color: #ebebeb;
-}
+/* ---------------------------------------------------------------------------
+   Shared content helpers
+   --------------------------------------------------------------------------- */
 
-.navbar-brand {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.15em;
-  font-weight: 400;
-}
-
-.navbar-nav .nav-link {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.15em;
-  font-weight: 400;
-  color: #495057; /* was #6c757d; darkened for WCAG AA contrast on #ebebeb */
-}
-
-.navbar-nav .nav-link.active {
-  font-weight: 400;
-  color: #000000 !important;
-}
-
-.navbar {
-  background-color: #ebebeb;
-  border-bottom: none;
-  box-shadow: none;
-}
-
-.navbar-brand-logo {
-  width: auto;
-  margin-right: 10px;
+/* Constrain wide (page-layout: full) pages to a readable measure */
+.page-wrap {
+  max-width: 1060px;
+  margin: 0 auto;
 }
 
 /* Reference lists (Publications / Research): hanging indent + small gap */
 .hanging-indent p {
-  margin-bottom: 0.6em; /* was 0em; small gap improves readability */
+  margin-bottom: 0.6em;
   padding-left: 2em;
   text-indent: -2em;
 }
 
-.panel-tabset .nav-tabs {
-  display: flex;
-  justify-content: center;
+/* Paper / Code / Data links rendered as small outlined badges */
+a.pub-badge {
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.45;
+  padding: 0.02em 0.55em;
+  border: 1px solid var(--brand-royal);
+  border-radius: 4px;
+  color: var(--brand-royal);
+  text-decoration: none;
+  text-indent: 0;            /* neutralize hanging-indent inside refs */
+  margin-right: 0.3em;
+  white-space: nowrap;
+}
+a.pub-badge:hover,
+a.pub-badge:focus {
+  background-color: var(--brand-royal);
+  color: #ffffff;
+}
+
+/* ---------------------------------------------------------------------------
+   Publications page
+   --------------------------------------------------------------------------- */
+.pub-legend {
+  display: block;
+  color: var(--brand-muted);
+  font-size: 0.95em;
+  margin: 0.8rem 0 1.4rem;
+}
+
+h3.pub-year {
+  font-size: 1.12em;
+  font-weight: 600;
+  margin-top: 1.7rem;
+  margin-bottom: 0.9rem;
+}
+
+/* ---------------------------------------------------------------------------
+   Research page — numbered area cards
+   --------------------------------------------------------------------------- */
+.research-lede {
+  max-width: 50em;
+  margin-bottom: 1.6rem;
+}
+
+.research-area {
+  background: #ffffff;
+  border: 1px solid var(--brand-rule);
+  border-radius: 8px;
+  padding: 1.6rem 1.8rem 1.1rem;
+  margin: 0 0 1.7rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 576px) {
+  .research-area {
+    padding: 1.1rem 1.15rem 0.8rem;
+  }
+}
+
+.research-area .area-head {
+  border-bottom: 1px solid var(--brand-rule);
+  padding-bottom: 0.65rem;
+  margin-bottom: 1.1rem;
+}
+
+.research-area .area-head p {
+  margin: 0;
+}
+
+.research-area .area-head h2 {
+  margin: 0.1rem 0 0.25rem;
+  padding-bottom: 0;
+  border-bottom: none; /* the .area-head rule replaces Quarto's h2 border */
+  font-size: 1.45em;
+}
+
+.area-eyebrow {
+  display: block;
+  font-size: 0.76em;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brand-royal);
+}
+
+.area-question {
+  display: block;
+  font-style: italic;
+  color: var(--brand-muted);
+}
+
+/* Selected-works column: left hairline echoes the CV's entry rule */
+.selected-works h3 {
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brand-muted);
+  margin: 0.2rem 0 0.8rem;
+}
+
+.selected-works p {
+  font-size: 0.93em;
+}
+
+@media (min-width: 768px) {
+  .selected-works {
+    border-left: 1px solid var(--brand-rule);
+    padding-left: 1.4rem;
+  }
 }

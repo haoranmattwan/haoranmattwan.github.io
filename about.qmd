@@ -1,6 +1,7 @@
 
 ---
 title: "Haoran (Matt) Wan"
+pagetitle: "About"
 subtitle: "Behavioral scientist · Decision-making across the adult lifespan"
 image: "profile.jpg"
 image-alt: "Portrait of Haoran (Matt) Wan"
@@ -49,7 +50,7 @@ format:
 }
 </style>
 
-## [About me]{style="color:#A70E16;"}
+## About me
 
 My research examines how age and income shape decision-making across the adult lifespan, with a focus on delay and probability discounting — how people value rewards that are delayed, uncertain, or both.  I study how personality, cognitive ability, and financial resources — financial security and financial literacy — shape the way older and younger adults weigh these attributes when making decisions.
 

@@ -17,3 +17,7 @@ I welcome inquiries from prospective students, collaborators, and anyone interes
 **Lab** — I direct the Lifespan Decision Science Lab at Duke Kunshan University.
 
 **Find me online** — [Google Scholar](https://scholar.google.com/citations?user=wOmVqukAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0002-3434-3146) · [GitHub](https://github.com/haoranmattwan)
+
+::: {.callout-note appearance="simple" icon="false" title="Prospective students & collaborators"}
+The Lifespan Decision Science Lab is recruiting.  If you are a Duke Kunshan University student interested in gaining research experience in judgment and decision-making, please email me a brief note describing your interests and any relevant coursework.  I also welcome correspondence from prospective collaborators studying discounting, decision-making, and aging.
+:::
