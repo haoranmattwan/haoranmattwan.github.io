@@ -12,7 +12,7 @@ format:
 
 <a href="https://scholar.google.com/citations?user=wOmVqukAAAAJ&hl=en" class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener" role="button">View on Google Scholar</a>
 
-[**Paper** = published article · **Code** = analysis repository (GitHub) · **Data** = materials and data (OSF)]{.pub-legend}
+[**Paper** = published article · **Code** = analysis repository (GitHub) · **Data** = open data and materials (OSF or journal supplement)]{.pub-legend}
 
 ## Peer-reviewed articles
 
@@ -67,19 +67,19 @@ Kirkman, C., **Wan, H.**, & Hackenberg, T. D. (2022). A behavioral-economic anal
 ## In preparation
 
 ::: {.hanging-indent}
-**Wan, H.** (in preparation). Age, income, and the discounting of rewards that are both delayed and probabilistic: The effects of financial and cognitive resources.
+**Wan, H.** Age, income, and the discounting of rewards that are both delayed and probabilistic: The effects of financial and cognitive resources.  *Manuscript in preparation.*
 
-**Wan, H.**, Myerson, J., & Green, L. (in preparation). Asymmetric conditioning in the discounting of delayed, probabilistic rewards: A test of three combination rules.
+**Wan, H.**, Myerson, J., & Green, L. Asymmetric conditioning in the discounting of delayed, probabilistic rewards: A test of three combination rules.  *Manuscript in preparation.*
 
-**Wan, H.**, Myerson, J., & Green, L. (in preparation). Delay and probability discounting: From standard to more complex, multi-attribute choice options.
+**Wan, H.**, Myerson, J., & Green, L. Delay and probability discounting: From standard to more complex, multi-attribute choice options.  *Book chapter in preparation.*
 :::
 
-## Dissertation & thesis
+## Dissertation and thesis
 
 ::: {.hanging-indent}
-Wan, H. (2026). *Age, income, and the discounting of delayed and probabilistic rewards: The roles of financial resources and attribute salience* (Dissertation, Washington University in St. Louis). [Paper](https://openscholarship.wustl.edu/art_sci_etds/3738/){.pub-badge}
+**Wan, H.** (2026). *Age, income, and the discounting of delayed and probabilistic rewards: The roles of financial resources and attribute salience* \[Doctoral dissertation, Washington University in St. Louis\]. [Paper](https://openscholarship.wustl.edu/art_sci_etds/3738/){.pub-badge}
 
-Wan, H. (2023). *Discounting of delayed and probabilistic outcomes across the adult lifespan* (Master's thesis, Washington University in St. Louis). [Paper](https://openscholarship.wustl.edu/art_sci_etds/2981/){.pub-badge}
+**Wan, H.** (2023). *Discounting of delayed and probabilistic outcomes across the adult lifespan* \[Master's thesis, Washington University in St. Louis\]. [Paper](https://openscholarship.wustl.edu/art_sci_etds/2981/){.pub-badge}
 :::
 
 ::::

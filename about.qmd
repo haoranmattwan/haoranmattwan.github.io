@@ -2,7 +2,7 @@
 ---
 title: "Haoran (Matt) Wan"
 pagetitle: "About"
-subtitle: "Behavioral scientist · Decision-making across the adult lifespan"
+subtitle: "Judgment and decision-making across the adult lifespan"
 image: "profile.jpg"
 image-alt: "Portrait of Haoran (Matt) Wan"
 comments: false
@@ -40,22 +40,10 @@ format:
     page-layout: full
 ---
 
-<style>
-/* Keep the social icons in a row, but allow wrapping on very small screens */
-.about-links {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: center !important;
-  flex-wrap: wrap !important;
-}
-</style>
-
 ## About me
 
-My research examines how age and income shape decision-making across the adult lifespan, with a focus on delay and probability discounting — how people value rewards that are delayed, uncertain, or both.  I study how personality, cognitive ability, and financial resources — financial security and financial literacy — shape the way older and younger adults weigh these attributes when making decisions.
+I am an Assistant Professor of Behavioral Science at Duke Kunshan University.  I received my Ph.D. in Psychological & Brain Sciences from Washington University in St. Louis and my B.A. in Economics and Psychology from Reed College.
 
-A central focus of this work is attribute weighting: how strongly each dimension of an outcome — its amount, delay, or probability — contributes to its value, and how that weighting changes when several dimensions must be considered at once.  I examine how the salience of each attribute and an individual's cognitive ability govern this process, and how the resulting weights vary with factors such as age, income, and personality.
+My research focuses on age-related differences in decision-making, and in particular on discounting (i.e., the decrease in the subjective value of an outcome as the delay to its receipt increases or its likelihood decreases).  Discounting plays a critical role in financial and health-related decisions, which often involve outcomes that are delayed, probabilistic, or both.
 
-I am an Assistant Professor of Behavioral Science at Duke Kunshan University, where I direct the Lifespan Decision Science Lab.  I received my Ph.D. in Psychological & Brain Sciences from Washington University in St. Louis and hold a B.A. in Economics and Psychology from Reed College.
-
-
+Such decisions are often more complicated than the choices usually studied in the laboratory, which are typically between immediate and delayed outcomes or between certain and probabilistic ones.  One goal of my current research is to examine decision-making in more complicated situations, as when outcomes are both delayed and probabilistic or involve both gains and losses.  A second goal is to identify the sources of age-related differences in decision-making and, in particular, the role played by people's financial circumstances.
